@@ -1,25 +1,15 @@
 ---
-title: "PalmerPenguins"
-author: "3조 박소은, 박수현, 박재원"
-date: "2025-03-07"
+title: "Post With Code"
+author: "Harlow Malloc"
+date: "2025-03-06"
 categories: [news, code, analysis]
-image: "palmer.png"
+image: "image.jpg"
 ---
 
 
-![](palmer.png)
-
-## 1. 팔머펭귄 데이터 불러오기
-
 ```{python}
-#| echo: true
-#| eval: true
-#| warning: false
-#| message: false
+import numpy as np
 
-import pandas as pd
-from palmerpenguins import load_penguins
-
-penguins=load_penguins()
-penguins.head()
+a=np.arange(10)
+a
 ```
