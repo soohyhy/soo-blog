@@ -3,7 +3,7 @@ title: "PalmerPenguins"
 author: "3조 박소은, 박수현, 박재원"
 date: "2025-03-07"
 categories: [news, code, analysis]
-image: "palmer.png"
+image: "palmerthumbnail.png"
 ---
 
 ## 1. 팔머펭귄 데이터 불러오기
@@ -14,4 +14,11 @@ from palmerpenguins import load_penguins
 
 penguins=load_penguins()
 penguins.head()
+```
+
+
+```{python}
+penguins.info()
+penguins.shape
+penguins.columns
 ```
